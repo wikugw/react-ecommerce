@@ -1,5 +1,6 @@
 import './App.css';
 import Collection from './components/collection/Collection';
+import Featured from './components/featured/Featured';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
 
@@ -10,6 +11,7 @@ function App() {
       <main className="l-main">
         <Home />
         <Collection />
+        <Featured />
       </main>
     </div>
   );
