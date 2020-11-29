@@ -26,14 +26,23 @@ const Header = () => {
       <header className="l-header">
         <nav className="nav bd-grid">
           <div>
-            <a href="#" className="nav__logo">WIXCOMMERCE</a>
+            <a href="#" className="nav__logo">TOKO</a>
           </div>
 
           <div className={`nav__menu ${showMenu ? "show" : ""}`} id="nav-menu">
             <ul className="nav__list">
               {
                 menuList.map(list =>
-                  <li className="nav__item"><a href={list.href} className={`nav__link ${menuActive === list.name && 'active'}`} onClick={() => navMenuHandle(list.name)}>{list.name}</a></li>
+                  <li
+                    className="nav__item"
+                    key={list.name}
+                  >
+                    <a
+                      href={list.href}
+                      className={`nav__link ${menuActive === list.name && 'active'}`}
+                      onClick={() => navMenuHandle(list.name)}
+                    >{list.name}</a>
+                  </li>
                 )
               }
             </ul>
