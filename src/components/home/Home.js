@@ -12,7 +12,7 @@ const Home = () => {
             <a href="#featured" className="button">GO SHOPPING</a>
           </div>
 
-          <img src={homeBG} className="home__img" />
+          <img alt="home-image" src={homeBG} className="home__img" />
         </div>
       </section>
     </>

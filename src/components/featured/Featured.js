@@ -26,7 +26,7 @@ const Featured = () => {
               <div className="featured__product">
                 <div className="featured__box">
                   <div className="featured__new">NEW</div>
-                  <img src={featured.image} className="featured__img" />
+                  <img alt={featured.name} src={featured.image} className="featured__img" />
                 </div>
 
                 <div className="featured__data">
