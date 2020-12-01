@@ -31,16 +31,6 @@
   width: 260px;
 }
 
-.button{
-  display: inline-block;
-  background-color: var(--first-color);
-  color: var(--white-color);
-  padding: 1rem;
-  font-size: var(--small-font-size);
-  font-weight: var(--font-semi);
-  transition: .3s;
-}
-
 .button:hover {
   background-color: var(--first-color-alt);
 }

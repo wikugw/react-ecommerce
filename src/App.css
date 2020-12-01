@@ -110,6 +110,16 @@ img{
   margin-right: var(--mb-3);
 }
 
+.button{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  padding: 1rem;
+  font-size: var(--small-font-size);
+  font-weight: var(--font-semi);
+  transition: .3s;
+}
+
 
 
 

@@ -3,6 +3,8 @@ import Collection from './components/collection/Collection';
 import Featured from './components/featured/Featured';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
+import NewArrival from './components/newArrival/NewArrival';
+import Offer from './components/offer/Offer';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Home />
         <Collection />
         <Featured />
+        <Offer />
+        <NewArrival />
       </main>
     </div>
   );
