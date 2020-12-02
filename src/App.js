@@ -4,6 +4,7 @@ import Featured from './components/featured/Featured';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
 import NewArrival from './components/newArrival/NewArrival';
+import NewsLetter from './components/newsLetter/NewsLetter';
 import Offer from './components/offer/Offer';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Featured />
         <Offer />
         <NewArrival />
+        <NewsLetter />
       </main>
     </div>
   );
