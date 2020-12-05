@@ -6,6 +6,7 @@ import Home from './components/home/Home';
 import NewArrival from './components/newArrival/NewArrival';
 import NewsLetter from './components/newsLetter/NewsLetter';
 import Offer from './components/offer/Offer';
+import Sponsor from './components/sponsor/Sponsor';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Offer />
         <NewArrival />
         <NewsLetter />
+        <Sponsor />
       </main>
     </div>
   );
