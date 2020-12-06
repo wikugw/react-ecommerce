@@ -19,3 +19,9 @@
 .sponsors__logo img:hover {
     filter: none;
 }
+
+@media screen and (min-width: 768px){
+    .sponsors__container{ 
+      grid-template-columns: repeat(4,1fr);
+    }
+  }

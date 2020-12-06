@@ -43,5 +43,20 @@
   text-decoration: underline;
 }
 
+@media screen and (min-width: 768px){
+  .collection__container{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+  }
+
+  .collection__box{
+    padding: .5rem 3rem 0;
+  }
+
+  .collection__img{
+    width: 130px;
+  }
+}
+
 
 

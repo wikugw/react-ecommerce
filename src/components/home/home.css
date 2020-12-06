@@ -34,3 +34,34 @@
 .button:hover {
   background-color: var(--first-color-alt);
 }
+
+@media screen and (min-width: 768px){
+  .home__container{
+    height: 100vh;
+  }
+
+  .home__data{
+    padding: 0;
+    height: max-content;
+    align-self: center;
+  }
+
+  .home__title{
+    line-height: .8;
+    letter-spacing: 1.5rem;
+  }
+
+  .home__img{
+    width: 370px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .home__data{
+    padding-left: 7rem;
+  }
+
+  .home__img{
+    right: 15%;
+  }
+}

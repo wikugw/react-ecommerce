@@ -10,6 +10,7 @@ const NewArrival = () => {
     { name: 'arrival3', image: new1 },
     { name: 'arrival4', image: new1 },
     { name: 'arrival5', image: new1 },
+    { name: 'arrival6', image: new1 },
   ];
   return (
     <>

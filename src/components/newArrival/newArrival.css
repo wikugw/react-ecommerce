@@ -27,3 +27,9 @@
 .new__box:hover .new__link{
   bottom: 0;
 }
+
+@media screen and (min-width:768px){
+  .new__container{
+    grid-template-columns: repeat(3,1fr);
+  }
+}

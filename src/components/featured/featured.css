@@ -44,3 +44,9 @@
   color: var(--dark-color-light);
   font-weight: var(--font-semi);
 }
+
+@media screen and (min-width: 768px){
+  .featured__container{ 
+    grid-template-columns: repeat(4,1fr);
+  }
+}

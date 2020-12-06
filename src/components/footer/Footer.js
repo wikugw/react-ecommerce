@@ -84,9 +84,9 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <p className="footer__copy">&#169; 2020 copyright all right reserved</p>
-
-                </div>      
+                </div>    
+                
+                <p className="footer__copy">&#169; 2020 copyright all right reserved</p>  
             </footer>  
         </>
     )
