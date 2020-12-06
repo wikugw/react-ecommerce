@@ -19,10 +19,10 @@ const Featured = () => {
       <section className="featured section" id="featured">
         <h2 className="section-title">FEATURED PRODUCTS</h2>
         <a href="#" className="section-all">View All</a>
-
-        {
+        
+        <div key={featured.name} className="featured__container bd-grid">
+          {
           featuredProducts.map(featured =>
-            <div key={featured.name} className="featured__container bd-grid">
               <div className="featured__product">
                 <div className="featured__box">
                   <div className="featured__new">NEW</div>
@@ -35,9 +35,9 @@ const Featured = () => {
                 </div>
 
               </div>
-            </div>
-          )
-        }
+            )
+          }
+        </div>
       </section>
     </>
   )

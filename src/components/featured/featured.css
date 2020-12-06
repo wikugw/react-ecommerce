@@ -1,8 +1,7 @@
 @import '../../App.css';
 
 .featured__container{
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  row-gap: 2rem;
 }
 
 .featured__product{
